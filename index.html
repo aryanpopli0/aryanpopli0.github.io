@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Popli | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-color: #38bdf8;
+            --secondary-text: #94a3b8;
+            --card-bg: #1e293b;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+        .subtitle {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .location {
+            color: var(--secondary-text);
+            font-size: 0.9rem;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            border-bottom: 2px solid var(--card-bg);
+            padding-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--accent-color);
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .skill-tag {
+            background-color: #334155;
+            color: var(--text-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-right: 1.5rem;
+            font-weight: bold;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Aryan Popli</h1>
+            <div class="subtitle">Computer Science Student & Tech Enthusiast</div>
+            <div class="location">Dubai, United Arab Emirates</div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a Year 10 student specializing in Computer Science at Nord Anglia International School Dubai. I have a strong passion for programming, developing digital solutions, and building production-ready systems.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Nord Anglia International School Dubai</h3>
+                <p><strong>Year 10 Student</strong></p>
+                <p>Focusing on Computer Science, algorithmic problem solving, and software fundamentals.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Web Development (HTML/CSS)</span>
+                <span class="skill-tag">Version Control (Git/GitHub)</span>
+                <span class="skill-tag">Algorithmic Problem Solving</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <div class="links">
+                <a href="https://linkedin.com" target="_blank">LinkedIn Profile</a>
+                <a href="#">GitHub Projects</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
